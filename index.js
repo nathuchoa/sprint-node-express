@@ -37,7 +37,7 @@ function checkList(items){
     let list = []
     while (items !== 'SAIR'){
         list.push (items)
-        items = input('Adicionar itens: ')
+        items = input('Adicionar propriedade: ')
     }
     console.log(list.sort().join('\n'))
 }
